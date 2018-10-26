@@ -1,0 +1,132 @@
+#Bluetooth
+bin/prepare_param.sh
+vendor/firmware/bcm43436B0_V0070.0091.hcd
+# vendor/firmware/bcm43438A1_V0056.0257.hcd
+# vendor/firmware/bcm43436B0_V0052.0061.hcd
+
+# Camera
+vendor/lib/hw/camera.exynos7870.so:vendor/lib/hw/camera.vendor.exynos7870.so
+vendor/lib/libexynoscamera.so
+vendor/lib/libexynoscamera3.so
+lib/libseccameracore.so
+vendor/lib/libuniplugin.so
+vendor/lib/libhwjpeg.so
+vendor/lib/libexynosutils.so
+vendor/lib/libcsc.so
+vendor/lib/libexynosgscaler.so
+vendor/lib/libexynosscaler.so
+vendor/lib/libexynosv4l2.so
+vendor/lib/libstainkiller.so
+lib/libHpr_RecFace_dl_v1.0.so
+lib/libHpr_RecGAE_cvFeature_v1.0.so
+lib/libHpr_TaskFaceClustering_hierarchical_v1.0.so
+vendor/firmware/setfile_3l2.bin
+vendor/firmware/setfile_4h5yc.bin
+vendor/lib/libOpenCv.so:lib/libOpenCv.so
+vendor/lib/libHpr_LocLandmark_sdm_v1.0.so
+vendor/lib/libsomp.so:lib/libsomp.so
+vendor/lib/libHpr_LocFace_mvfd_v1.0.so
+
+# DRM
+vendor/lib/mediadrm/libdrmclearkeyplugin.so
+lib/libstagefright_hdcp.so
+lib/liboemcrypto.so
+
+
+# GPS
+vendor/bin/hw/gpsd
+vendor/etc/gnss/ca.pem
+vendor/lib/hw/gps.default.so
+lib/libfloatingfeature.so
+vendor/lib/libwrappergps.so
+# vendor/lib/hw/flp.default.so
+# vendor/lib/libflp.so
+
+# Graphics
+vendor/lib/egl/libGLES_mali.so
+# lib/egl/egl.cfg
+lib/egl/libGLES_android.so
+
+# Media
+vendor/lib/libSEF.so
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/mfc_fw.bin
+
+# Mobicore
+vendor/app/mcRegistry/FFFFFFFF000000000000000000000001.drbin
+vendor/app/mcRegistry/07010000000000000000000000000000.tlbin
+vendor/app/mcRegistry/07060000000000000000000000000000.tlbin
+vendor/app/mcRegistry/08130000000000000000000000000000.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000005.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000000c.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000000d.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000000f.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000017.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000002e.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000002f.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000030.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000038.tlbin
+vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000041.tlbin
+vendor/app/mcRegistry/ffffffff000000000000000000000073.tlbin
+vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin
+vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin
+vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin
+vendor/app/mcRegistry/ffffffffd00000000000000000000062.tlbin
+app/mcRegistry/00060308060501020000000000000000.tlbin
+app/mcRegistry/ffffffff00000000000000000000000a.tlbin
+app/mcRegistry/ffffffff00000000000000000000000b.tlbin
+app/mcRegistry/ffffffff000000000000000000000016.tlbin
+app/mcRegistry/ffffffff000000000000000000000019.tlbin
+app/mcRegistry/ffffffff000000000000000000000045.tlbin
+app/mcRegistry/ffffffff000000000000000000000059.tlbin
+app/mcRegistry/ffffffff000000000000000000000060.tlbin
+app/mcRegistry/ffffffff000000000000000000000077.tlbin
+
+# OMX
+vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so
+vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so
+vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so
+vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so
+vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so
+vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so
+vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so
+vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so
+vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so
+
+# Radio
+vendor/lib/libsec-ril.so|09f007ba0fd0a66b98ccd4c4b8275c703a6a6804
+vendor/lib/libsec-ril-dsds.so|baf6ac2e770b0456ad1ad3906c92a4deebd11040
+vendor/lib/libsecril-client.so
+vendor/lib/libaudio-ril.so
+lib/librilutils.so
+vendor/lib/libsecnativefeature.so
+
+# Sensors
+vendor/lib/hw/sensors.universal7870.so
+lib/libsensorservice.so
+vendor/lib/libsensorlistener.so
+
+# Shim Libs
+#lib/libprotobuf-cpp-N.so|f8b1e1d088cd4707393a1fad233f8b06116bc666
+#lib/libprotobuf-cpp-fooo.so|5890f0daae5933210aa6b114bafc52ee7e809864
+lib/libprotobuf-cpp-full-rtti.so
+lib/libprotobuf-cpp-lite.so
+lib/libprotobuf-cpp-full.so 
+
+# Surface Composer
+vendor/lib/hw/gralloc.exynos5.so
+
+# Wifi
+vendor/etc/plmn_delta.bin
+vendor/etc/plmn_se13.bin
+etc/srm.bin
+vendor/etc/wifi/bcmdhd_apsta.bin
+vendor/etc/wifi/bcmdhd_mfg.bin
+vendor/etc/wifi/bcmdhd_sta.bin
+vendor/etc/wifi/cred.conf
+vendor/etc/wifi/nvram.txt_36
+#vendor/etc/wifi/nvram_mfg.txt
+#vendor/etc/wifi/nvram_net.txt
